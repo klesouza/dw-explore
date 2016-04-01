@@ -1,0 +1,6 @@
+dw:
+  build: .
+  volumes:
+    - ./lib:/home/jovyan/work:rw
+  ports:
+    - "8888:8888"
